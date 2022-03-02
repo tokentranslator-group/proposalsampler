@@ -25,14 +25,16 @@ if __name__ == "__main__":
     # for description:
     with open("README.md") as f:
         long_description = f.read()
-    
+
+    '''
     # for requirements:
     with open("requirements.txt") as f:
         s_reguirements = f.read()
     requirements = s_reguirements.split("\n")
     print("\nINFO: requirements:")
     print(requirements)
-
+    '''
+    '''
     # currently impossible to install project dependency with
     # `--install-option` argument with setuptools `install_requires`
     # this is only way to install dependency with additional
@@ -46,6 +48,7 @@ if __name__ == "__main__":
     for line in out:
         print(line)
     print("\n DEV: END FOR pip install tokentranslator")
+    '''
 
     installed = setup(
         
@@ -67,7 +70,7 @@ if __name__ == "__main__":
         long_description=long_description,
         long_description_content_type="text/markdown",
         url="https://github.com/tokentranslator-group/proposalsampler",
-        packages=find_packages('.'),
+        packages=lpackages,
         include_package_data=True,
         
         # exclude_package_data={"hybriddomain.tests":
@@ -90,6 +93,6 @@ if __name__ == "__main__":
 
         setup_requires=['setuptools_scm >= 3.5.0'],
         # setup_requires=[ "setuptools_git >= 0.3", ],
-        install_requires=requirements
+        # install_requires=requirements
     )
     

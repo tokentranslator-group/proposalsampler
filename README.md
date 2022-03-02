@@ -58,14 +58,11 @@ sin(0.243*0.570+0.369*0.078)=0.243*sin(0.570)+0.369*sin(0.078)
 ```
 ### Requirements
 ```
-linux, python3, tokentranslator
+pip install -r requirements.txt
 
 ### Installation and running
 ```
-pip install proposalsampler -v
-# -v for extended output during installation because
-# some tricks with `subprocess.popen` and `pip` should be watched
-# (see setup.py for more)
+pip install proposalsampler
 
 ### Tests:
 see `tests/test_list.txt`

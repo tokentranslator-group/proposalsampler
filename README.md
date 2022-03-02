@@ -2,7 +2,7 @@
 Experimental project. For given proposal or equation it generate its implementation (context or sample space $\Omega$ or model (like model for theory in logic therms))
 at which this proposal (or equation) is true.
 For example below, given the sent "abelian(G) \\and subgroup(H, G,) => abelian(H)", the program will generate some groups (described with they generators (like in GAP)) for G, H, at which this proposal is true (i.e. $\Omega = {\{H_{i}, G_{i}\} | where i \leq n}$ where $n$ is count of samples to be generated).
-Only part of that "arguments" of the proposal can be given ($\Theta$) such that only remained part (\Psi) ought to be generated (so $\Omega = \Theta + \Psi$).  
+Only part of that "arguments" of the proposal can be given ($\Theta$) such that only remained part ($\Psi$) ought to be generated (so $\Omega = \Theta + \Psi$).  
 The main idea is that such samples can give you better understanding of a proposal itself, especially if such proposal have been taken from some abstract math theory. 
 
 ##### sampling proposals:
@@ -59,10 +59,12 @@ sin(0.243*0.570+0.369*0.078)=0.243*sin(0.570)+0.369*sin(0.078)
 ### Requirements
 ```
 pip install -r requirements.txt
+```
 
 ### Installation and running
 ```
 pip install proposalsampler
+```
 
 ### GUI:
 There is also a GUI for this project at <br/>
@@ -76,4 +78,5 @@ see `tests/test_list.txt`
 Probabilistic Models of Cognition: https://probmods.org/
 
 (eng: George Pólya: Mathematics and Plausible Reasoning, Princeton University Press 1954, 2 volumes (Vol. 1: Induction and Analogy in Mathematics, Vol. 2: Patterns of Plausible Inference)
+
 (ru: Джордж Пойа: Математика и правдоподобные рассуждения)

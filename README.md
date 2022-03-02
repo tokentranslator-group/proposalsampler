@@ -64,6 +64,10 @@ pip install -r requirements.txt
 ```
 pip install proposalsampler
 
+### GUI:
+There is also a GUI for this project at <br/>
+https://github.com/tokentranslator-group/tokentranslator-gui
+
 ### Tests:
 see `tests/test_list.txt`
 

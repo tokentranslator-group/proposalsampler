@@ -3,7 +3,7 @@ Experimental project. For given proposal or equation it generate its implementat
 at which this proposal (or equation) is true.
 For example below, given the sent "abelian(G) \\and subgroup(H, G,) => abelian(H)", the program will generate some groups (described with they generators (like in GAP)) for G, H, at which this proposal is true (i.e. $\Omega = {\{H_{i}, G_{i}\} | where i \leq n}$ where $n$ is count of samples to be generated).
 Only part of that "arguments" of the proposal can be given ($\Theta$) such that only remained part (\Psi) ought to be generated (so $\Omega = \Theta + \Psi$).  
-The main idea is that such samples can give you better understanding of proposal itself, especially if such proposal have been taken from some abstract math theory. 
+The main idea is that such samples can give you better understanding of a proposal itself, especially if such proposal have been taken from some abstract math theory. 
 
 ##### sampling proposals:
 
